@@ -1,0 +1,33 @@
+= herkochat-1.0
+
+This is a purely educational program for learning nodejs.
+
+== Application
+
+Application represent a very simple chat.
+
+It allows to:
+
+* view exisitng chat messages
+* add new message
+
+
+== Protocol specification
+
+=== Viewing chat messages
+
+URL: `GET /`
+
+Response payload: plain text containig all the chat messages
+
+=== Posting new message
+
+URL: `POST /`
+
+Query parameters:
+
+* `user` - name of user who posted message. If ommited then `anonymous` is used as default username.
+
+Request payload: Text of new message.
+
+Respose payload: None
