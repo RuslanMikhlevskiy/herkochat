@@ -31,3 +31,14 @@ Query parameters:
 Request payload: Text of new message.
 
 Respose payload: None
+
+
+== Lauching the application
+
+```
+nodejs src/index.js
+```
+
+Application will start on http://localhost:8080/
+
+To make a POST call, use Postman or CURL, or other HTTP client tool.
